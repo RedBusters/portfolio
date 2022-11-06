@@ -9,7 +9,9 @@ const PortfolioDetail: React.FC = () => {
 
   return (
     <Container>
-      <pre>{JSON.stringify(actualData, null, 2)}</pre>
+      <img src={actualData?.image} alt={actualData?.name} />
+      <Typography variant='h4'>{actualData?.name}</Typography>
+      <Typography variant='body1'>{actualData?.description}</Typography>
     </Container>
   );
 };

@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
               ACCUEIL
             </Link>
             <Link component={RouterLink} to='/about'>
-              À PROPOS
+              QUI-SUIS-JE
             </Link>
             <Link component={RouterLink} to='/contact'>
               CONTACT
