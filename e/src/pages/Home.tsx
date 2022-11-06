@@ -1,6 +1,7 @@
 import { Typography, Button, Container, Box, Stack } from "@mui/material";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import Reals from "../components/Reals";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,12 @@ const Home: React.FC = () => {
         >
           Voir mes projets
         </Button>
+      </Box>
+      <Box mt={24}>
+        <Box my={8}>
+          <Typography variant='h2'>Mes projets</Typography>
+        </Box>
+        <Reals />
       </Box>
     </Container>
   );
